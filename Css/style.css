@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ce9cc04a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+  padding: 2rem;
+}
+
+.container {
+  background: linear-gradient( #ADD8E6, #D8BFD8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+#cityInput {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
+#cityInput:focus {
+  border-color: #0d0d0d;
+  box-shadow: 0 0 0 3px rgba(81, 82, 82, 0.25);
+}
+
+#searchBtn {
+  padding: 12px 20px;
+  background-color: #2988ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3;
+}
+
+#result img {
+  width: 100px;
+}
